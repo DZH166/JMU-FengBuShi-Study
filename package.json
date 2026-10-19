@@ -1,0 +1,14 @@
+{
+  "name": "jmu-fenbushi-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "JMU 分布式系统交互学习手册",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

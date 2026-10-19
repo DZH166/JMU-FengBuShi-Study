@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="350" viewBox="0 0 720 350" role="img" aria-labelledby="title desc">
+<title id="title">一致快照把在途消息算进去</title><desc id="desc">P1先记录3枚令牌，P2发送一枚令牌后记录2枚，P1在记录窗口收到的令牌保存在通道状态，合计6枚。</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#314f43"/></marker><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="#aa5944"/></marker></defs>
+<rect width="720" height="350" rx="6" fill="#f1f4ec"/><g font-family="Microsoft YaHei, sans-serif" fill="#29372f" font-size="14"><text x="30" y="32" font-size="12" fill="#6f786f">时间向右推进</text><text x="30" y="89" font-size="17">P1</text><text x="30" y="213" font-size="17">P2</text>
+<rect x="130" y="64" width="450" height="44" rx="3" fill="#dce6d7"/><text x="375" y="57" text-anchor="middle" font-size="12" fill="#52644e">P1 正在记录 P2 → P1 的通道</text>
+<g stroke="#8c9b89" stroke-width="1.4" marker-end="url(#a)"><path d="M75 88H675"/><path d="M75 212H675"/></g>
+<g stroke="#314f43" stroke-width="2"><path d="M130 71V106"/><path d="M375 194V230"/></g>
+<text x="130" y="129" text-anchor="middle">记录 P1：3 枚</text><text x="375" y="252" text-anchor="middle">记录 P2：2 枚</text>
+<g stroke="#314f43" fill="none" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#a)"><path d="M158 88 375 212"/><path d="M405 212 580 88"/></g>
+<rect x="212" y="140" width="53" height="24" fill="#f1f4ec"/><text x="218" y="157" font-size="12">标记</text><rect x="495" y="145" width="43" height="24" fill="#f1f4ec"/><text x="501" y="162" font-size="12">标记</text>
+<path d="M275 212 460 88" fill="none" stroke="#aa5944" stroke-width="2.4" marker-end="url(#b)"/><rect x="305" y="143" width="137" height="26" rx="3" fill="#eee5d9"/><text x="314" y="161" fill="#874a38" font-size="13">业务消息 m：1 枚</text><circle cx="460" cy="88" r="5" fill="#aa5944"/>
+<g fill="#fff" stroke="#d8dfd2"><rect x="78" y="283" width="167" height="42" rx="3"/><rect x="262" y="283" width="167" height="42" rx="3"/><rect x="446" y="283" width="198" height="42" rx="3"/></g><text x="161" y="309" text-anchor="middle">P1 本地：3</text><text x="345" y="309" text-anchor="middle">P2 本地：2</text><text x="545" y="309" text-anchor="middle">通道：1　合计：6</text></g></svg>

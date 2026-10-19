@@ -1,0 +1,12 @@
+node_modules/
+evidence/sources/
+evidence/renders/
+evidence/contact-sheets/
+evidence/contact-*/
+evidence/screenshots/
+evidence/*.pdf
+*.tar.gz
+*.zip
+.DS_Store
+.openai/*.local.json
+*.log
